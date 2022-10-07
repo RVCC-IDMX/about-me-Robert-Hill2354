@@ -1,23 +1,33 @@
+
 main{
     background: rgb(25,171,255);
     }
   
   h1 {
     font-family: Anton ;
+    text-align: center;
     color: rgb(158,91,0);
     background-color: rgb(25,171,255) ;
      }
 
-p {
-    font-family: "Roboto Condensed";
-    color: rgb(158,91,0);
+  p {
+      font-family: "Roboto Condensed";
+      text-align: center;
+      color: rgb(158,91,0);
 
- }
-
-ul{
-    font-family: "Roboto Condensed";
-    color: rgb(158,91,0);
   }
+
+  h2 {
+    font-family: "Roboto Condensed";
+    color: rgb(158,91,0);
+
+  }
+
+
+  ul{
+      font-family: "Roboto Condensed";
+      color: rgb(158,91,0);
+    }
 
   
 
