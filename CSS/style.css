@@ -15,7 +15,7 @@ main{
     background-color: rgb(25,171,255) ;
      }
 
-  p {
+  #header,#hero {
       font-family: "Roboto Condensed";
       text-align: center;
       color: rgb(158,91,0);
@@ -59,6 +59,18 @@ main{
     text-align: center;
 
   }
+
+  /*Article Section*/
+
+  article{
+
+    font-family: "Roboto Condensed";
+    color: rgb(158,91,0);
+    text-align: left;
+
+  }
+
+  
 
 
  
