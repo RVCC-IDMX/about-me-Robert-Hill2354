@@ -41,13 +41,16 @@ main{
       color: rgb(158,91,0);
     }
 
+  /*Gallery*/
+  #gallery img{
+    max-width: 100%;
+  }
 
   figcaption{
 
     font-family: "Roboto Condensed";
     color: rgb(158,91,0);
-
-  text-align: center;
+    text-align: center;
   }
 
  /*Copyright Section*/
