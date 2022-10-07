@@ -1,6 +1,7 @@
 /*Main Section*/
 main{
     background: rgb(25,171,255);
+    max-width: 100%;
     } 
 
   body{
@@ -13,12 +14,15 @@ main{
     text-align: center;
     color: rgb(158,91,0);
     background-color: rgb(25,171,255) ;
+    max-width: 50%;
+
      }
 
   #header,#hero {
       font-family: "Roboto Condensed";
       text-align: center;
       color: rgb(158,91,0);
+      max-width: 50%;
 
     } 
     
@@ -50,7 +54,7 @@ main{
 
     font-family: "Roboto Condensed";
     color: rgb(158,91,0);
-    text-align: center;
+    text-align: left;
   }
 
  /*Copyright Section*/
@@ -67,10 +71,11 @@ main{
     font-family: "Roboto Condensed";
     color: rgb(158,91,0);
     text-align: left;
+    max-width: 100%;
 
   }
 
-  
+
 
 
  
