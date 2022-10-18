@@ -1,36 +1,232 @@
+/*Main Section*/
 main{
     background: rgb(25,171,255);
-    }
-  
-  h1 {
-    font-family: Anton ;
-    color: rgb(158,91,0);
-    background-color: rgb(25,171,255) ;
-     }
-
-p {
-    font-family: "Roboto Condensed";
-    color: rgb(158,91,0);
-
- }
-
-ul{
-    font-family: "Roboto Condensed";
-    color: rgb(158,91,0);
-  }
-
-  
-
-  header{
-    background-color: rgb(25,171,255);
-
-  }
-
-  footer{
-    background-color: rgb(25,171,255);
-
-  }
+    max-width: 100%;
+    } 
 
   body{
-    background-color: rgb(0,100,158);
+    background-color: black;
+    
+    }
+
+  /*Hero Section*/
+  h1 {
+    font-family: Anton ;
+    text-align: center;
+    color: rgb(158,91,0);
+    background-color: rgb(25,171,255) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+     }
+     
+
+  header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+    }
+    #hero {
+      font-family: "Roboto Condensed";
+      text-align: center;
+      color: rgb(158,91,0);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+
+    } 
+
+    #hero img{
+      max-width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+    }
+    
+    header{
+      background-color: rgb(25,171,255);
+
+    }
+
+  /* Bio and Hobby Section*/
+  h2 {
+    font-family: "Roboto Condensed";
+    color: rgb(158,91,0);
+    background-color: black ;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
   }
+
+
+  ul{
+      font-family: "Roboto Condensed";
+      color: rgb(158,91,0);
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+    }
+
+  /*Gallery*/
+  #gallery img{
+    max-width: 100%;
+
+  }
+
+  figcaption{
+
+    font-family: "Roboto Condensed";
+    color: rgb(158,91,0);
+    text-align: left;
+   
+
+  }
+
+ /*Copyright Section*/
+  footer{
+    background-color: rgb(25,171,255);
+    text-align: center;
+
+  }
+
+  /*Article Section*/
+
+  article{
+
+    font-family: "Roboto Condensed";
+    color: rgb(158,91,0);
+    text-align: left;
+    max-width: 100%;
+   
+
+  }
+@media screen and (min-width:40em){
+
+    h1 {
+
+      font-size: 3rem;
+    }
+
+    h2{
+
+      font-size: 2rem;
+
+    }
+
+    ul{
+
+      font-size: 1.25rem;
+
+    }
+
+    figure{
+      display:grid;
+      grid-template-columns: 2fr 1fr;
+
+    }
+
+    figcaption{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.5rem;
+      margin-left: 1rem;
+
+    }
+
+    article div{
+
+      display:grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      max-width: 100%;
+      columns:40rem;
+      column-gap: 1rem;
+      font-size: 1rem;
+      margin-left: 1rem;
+   }
+
+}
+
+@media screen and (min-width:80em) {
+
+  #hero{
+
+    font-size: 2rem;
+
+  }
+  #gallery  {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    
+
+  }
+
+  #gallery h2{
+
+    grid-column: 1/-1;
+
+  }
+
+  #gallery img{
+
+    grid-column: 2/-2;
+    max-width: 100%;
+  }
+
+  hr{
+
+    display:none;
+
+  }
+
+  #gallery figcaption{
+
+    grid-column: 3/-3;
+    font-size: 2rem;
+
+  }
+
+  figure{
+
+    display: block;
+
+  }
+
+  h1 {
+
+    font-size: 4rem;
+  }
+
+  h2{
+
+    font-size: 3rem;
+
+  }
+
+  ul{
+
+    font-size: 2.25rem;
+
+  }
+
+  article div{
+
+    font-size: 2.25rem;
+
+  }
+
+  
+}
+
+
+ 
