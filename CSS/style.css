@@ -145,15 +145,87 @@ main{
 
     article div{
 
-     display:grid;
-     grid-template-columns: 1fr 1fr 1fr;
-     max-width: 100%;
-     columns:40rem;
+      display:grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      max-width: 100%;
+      columns:40rem;
       column-gap: 1rem;
       font-size: 1rem;
       margin-left: 1rem;
    }
 
+}
+
+@media screen and (min-width:100em) {
+
+  #hero{
+
+    font-size: 2rem;
+
+  }
+  #gallery  {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    
+
+  }
+
+  #gallery h2{
+
+    grid-column: 1/-1;
+
+  }
+
+  #gallery img{
+
+    grid-column: 2/-2;
+    max-width: 100%;
+  }
+
+  hr{
+
+    display:none;
+
+  }
+
+  #gallery figcaption{
+
+    grid-column: 3/-3;
+    font-size: 2rem;
+
+  }
+
+  figure{
+
+    display: block;
+
+  }
+
+  h1 {
+
+    font-size: 4rem;
+  }
+
+  h2{
+
+    font-size: 3rem;
+
+  }
+
+  ul{
+
+    font-size: 2.25rem;
+
+  }
+
+  article div{
+
+    font-size: 2.25rem;
+
+  }
+
+  
 }
 
 
