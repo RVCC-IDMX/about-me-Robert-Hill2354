@@ -6,6 +6,7 @@ main{
 
   body{
     background-color: black;
+    max-width: 100%;
     
     }
 
@@ -76,6 +77,36 @@ main{
 
     }
 
+  /* My Video Section*/
+
+  .Video {
+    position:relative;
+    padding-bottom:56.25%; 
+    
+  }
+
+  iframe {
+      position:absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+    
+
+}
+
+  #VideoCap{
+
+      font-family: "Roboto Condensed";
+      color: rgb(158,91,0);
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+  }
+
+ 
   /*Gallery*/
   #gallery img{
     max-width: 100%;
