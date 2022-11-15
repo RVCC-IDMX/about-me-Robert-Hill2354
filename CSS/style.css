@@ -126,8 +126,16 @@ main{
   }
 
   /*Form Section*/
+  #contact{
 
-  
+    font-family: "Roboto Condensed";
+    color: rgb(158,91,0);
+    text-align: left;
+    max-width: 100%;
+    margin-left: 1%;
+
+  }
+
 
 
 
