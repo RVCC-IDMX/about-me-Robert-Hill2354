@@ -272,10 +272,49 @@
 
     </article>
 
+    <section id="contact">
+
+        <h2>Questions? Contact Me!</h2>
+
+        <div class="formInfor">
+            <form action="/Contact_Questions.php">
+
+                <label for="name">Name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+            
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+
+                <label for="phone">Phone:</label><br>
+                <input type="tel" id="phone" name="phone"><br>
+
+                <label for="cars">Phone Type:</label>
+                <select name="cars" id="cars">
+                    <option value="none">None</option>
+                    <option value="mobile">Mobile</option>
+                    <option value="home">Home</option>
+                    <option value="work">Work</option>
+                </select><br><br>
+
+                <label for="comment">Leave a Comment:</label><br>
+                <textarea id="comment" name="comment" rows="4" cols="50"></textarea><br>
+                <label for="followup">Would you like a Followup?</label>
+                <input type="radio" id="yes" name="followup" value="Yes">
+                <label for="yes">Yes</label>
+                <input type="radio" id="no" name="followup" value="No">
+                <label for="no">No</label><br><br>
+            
+                <input type="submit" value="Submit">
+
+            </form> 
+          </div>
+
+    </section>
+
 </main>
 
 <footer>
-    &copy; Robert Hill
+    &copy; Robert Hill 2022
 </footer>
 
 </body>
