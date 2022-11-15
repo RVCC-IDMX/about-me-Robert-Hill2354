@@ -54,25 +54,19 @@ main{
     }
 
   /*My Video Section*/
+    .myVideo {
+      position:relative;
+      padding-bottom:56.25%;     
+    }
 
-  
-
-  .myVideo {
-    position:relative;
-    padding-bottom:56.25%; 
-    
-}
-iframe {
-    position:absolute;
-    top:0;
-    left:0;
-    width:75%;
-    height:75%;
-    margin-left: 15%;
-}
-
-
-
+    iframe {
+        position:absolute;
+        top:0;
+        left:0;
+        width:75%;
+        height:75%;
+        margin-left: 15%;
+    }
 
   /* Bio and Hobby Section*/
   h2 {
@@ -130,6 +124,13 @@ iframe {
    
 
   }
+
+  /*Form Section*/
+
+  
+
+
+
 @media screen and (min-width:40em){
 
     h1 {
