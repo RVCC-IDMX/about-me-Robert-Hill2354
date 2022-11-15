@@ -9,26 +9,31 @@ main{
     
     }
 
-  /*Hero Section*/
+  /*Header*/
+  
   h1 {
     font-family: Anton ;
     text-align: center;
     color: rgb(158,91,0);
-    background-color: rgb(25,171,255) ;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+    background-color: black ;
+    margin-top: .5%;
+    margin-bottom: .5%;
 
      }
-     
 
-  header {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+     header{
+      display:grid;
+      grid-template-columns: .1fr .8fr;
 
-    }
+     }
+    
+     header img{
+
+      margin-left: 15%;
+
+     }
+
+    /*Hero Section*/
     #hero {
       font-family: "Roboto Condensed";
       text-align: center;
@@ -48,10 +53,6 @@ main{
 
     }
     
-    header{
-      background-color: rgb(25,171,255);
-
-    }
 
   /*My Video Section*/
     .myVideo {
@@ -134,10 +135,14 @@ main{
     max-width: 100%;
     margin-left: 1%;
 
+
   }
 
+  input{
 
+    color: ;
 
+  }
 
 @media screen and (min-width:40em){
 
