@@ -136,8 +136,8 @@ main{
   }
 
   /*Form Section*/
-  #contact{
 
+  label{
     font-family: "Roboto Condensed";
     font-size: 1rem;
     color: rgb(158,91,0);
@@ -147,7 +147,7 @@ main{
 
   }
 
-  input,textarea,select{
+  input[type=text],[type=tel],[type=email],textarea,select{
     font-family: "Roboto Condensed";
     font-size: 1rem;
     color: rgb(158,91,0);
@@ -160,6 +160,17 @@ main{
     width: 280px;
 
   }
+
+  input[type=submit] {
+    font-size:1rem ;
+    padding:5px 15px; 
+    background:rgb(247, 6, 6); 
+    border:10 none;
+    cursor:pointer;
+    border-radius: 10px;
+    margin-left:2%; 
+    
+}
 
 @media screen and (min-width:40em){
 
@@ -207,13 +218,13 @@ main{
    }
 
 
-    #contact{
+    label{
 
       font-size: 1.5rem;
 
     }
 
-    input,textarea,select{
+    input[type=text],[type=tel],[type=email],textarea,select{
 
       font-size:1.5rem ;
 
@@ -223,6 +234,11 @@ main{
 
       width:375px;
 
+    }
+
+    input[type=submit] {
+      font-size:1.5rem ;
+      
     }
 
 }
@@ -297,13 +313,13 @@ main{
   }
 
 
-  #contact{
+  label{
 
     font-size: 2.25rem;
 
   }
 
-  input,textarea,select{
+  input[type=text],[type=tel],[type=email],textarea,select{
 
     font-size:2.25rem ;
 
@@ -313,6 +329,11 @@ main{
 
     width:800px;
 
+  }
+
+  input[type=submit] {
+    font-size:2.25rem ;
+   
   }
 
 }
