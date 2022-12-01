@@ -1,3 +1,5 @@
+![GitHubLogo](https://user-images.githubusercontent.com/98339574/205124068-80b79619-f1b1-4ebd-9d89-c17d9dacec98.jpg)
+
 # My About Me Project  [![Netlify Status](https://api.netlify.com/api/v1/badges/d984b4b7-e021-4434-bcc2-17a23674c388/deploy-status)](https://app.netlify.com/sites/about-me-robert-hill2354/deploys)
 
 #### By Robert C. Hill Jr
@@ -14,6 +16,7 @@ The purpose of this project is to illustrate my journey of learning website desi
 ## Citations
 
 ##### Navigation Bar: https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/
+##### Logo Created With: https://logo.com/homepage
 ##### Article Citation 1:
 ##### Article Citation 2:
 ##### Article Citation 3:
