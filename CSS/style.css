@@ -2,12 +2,13 @@
 main{
 
     background:lightgreen;
-    max-width: 100%;
+    
     } 
 
   body{
 
     background-color: white;
+    
     
     }
 
@@ -183,10 +184,15 @@ main{
   /*Gallery*/
 
   figure{
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 5%;
-  
+
+    margin-top: 2%;
+
+  }
+
+  figure img{
+
+    max-width: 100%;
+    
   }
 
   figcaption{
@@ -194,19 +200,12 @@ main{
     font-family: "Roboto Condensed";
     color: brown;
     text-align: left;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
+    margin-left: 2%;
    
 
   }
 
- /*Copyright Section*/
-
-  footer{
-
-    background-color: lightgreen;
-    text-align: center;
-
-  }
 
   /*Article Section*/
 
@@ -229,6 +228,12 @@ main{
   }
 
   /*Form Section*/
+
+  #contact{
+
+    margin-top: 1%;
+
+  }
 
   label{
 
@@ -274,6 +279,7 @@ footer{
 
 background-color: white ;
 font-size: 1rem;
+text-align: center;
 
 }
 
@@ -312,12 +318,14 @@ margin-bottom: 1%;
 
 
     figure{
+
       display:grid;
       grid-template-columns: 2fr 1fr;
 
     }
 
     figcaption{
+
       display:flex;
       justify-content: center;
       align-items: center;
@@ -375,8 +383,7 @@ margin-bottom: 1%;
   #gallery  {
 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    
+    grid-template-columns: 1fr 1fr 1fr ;  
 
   }
 
@@ -386,10 +393,20 @@ margin-bottom: 1%;
 
   }
 
+  figure{
+    
+    margin-left: 2%;
+    margin-right: 2%;
+    display: block;
+
+  }
+
   #gallery img{
 
     grid-column: 2/-2;
     max-width: 100%;
+    margin-top: 5%;
+  
   }
 
   hr{
@@ -402,12 +419,6 @@ margin-bottom: 1%;
 
     grid-column: 3/-3;
     font-size: 1.5rem;
-
-  }
-
-  figure{
-
-    display: block;
 
   }
 
