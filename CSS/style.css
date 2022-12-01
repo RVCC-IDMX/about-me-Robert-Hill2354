@@ -101,7 +101,6 @@ main{
       align-items: center;
       margin-bottom: 1.5%;
       
-
     } 
 
     #hero img{
@@ -110,6 +109,8 @@ main{
       display: flex;
       flex-direction: column;
       align-items: center;
+      border-radius: 1000px;
+      margin-top: 2%;
 
     }
     
