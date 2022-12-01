@@ -20,7 +20,7 @@ The purpose of this project is to illustrate my journey of learning website desi
 ##### Article Citation 1: https://www.w3schools.com/css/css3_animations.asp
 ##### Article Citation 2: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations
 ##### Article Citation 3: https://animate.style/
-##### Animation Code: 
+##### Animation Code: https://codepen.io/hjdesigner/pen/jvyJdX
 
 ## License 
 
