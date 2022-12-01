@@ -227,7 +227,7 @@ main{
 
   #lastp{
 
-    margin-top: 30%;
+    margin-top: 130%;
 
   }
 
@@ -247,7 +247,7 @@ main{
   /*Coffee Animation*/
 
   .container {
-    margin-top: 274%;
+    margin-top: 1370%;
     width: 300px;
     height: 280px;
     position: absolute;
@@ -635,6 +635,18 @@ margin-bottom: 1%;
       
     }
 
+    .container{
+
+      margin-top: 580%;
+
+    }
+
+    #lastp{
+
+      margin-top: 45% ;
+
+    }
+
 }
 /*Laptop Media Query*/
 @media screen and (min-width:80em) {
@@ -704,6 +716,16 @@ margin-bottom: 1%;
 
     font-size: 1.5rem;
   
+  }
+
+  .container {
+    margin-top: 277%;
+  }
+
+  #lastp{
+
+    margin-top: 28%;
+
   }
 
   #hobbies ul{
