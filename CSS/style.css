@@ -216,7 +216,6 @@ main{
     margin-bottom: 3%;
     margin-left: 2%;
     text-align: center;
-   
 
   }
 
@@ -225,11 +224,12 @@ main{
 
   Article:first-letter {
     float: left;
-    font-size: 60px;
-    line-height: .10;
+    font-size: 3rem;
+    line-height: .25;
     font-weight:Bold;
     margin-right: 5px;
     color: brown;
+    margin-bottom: 2%;
     font-family: "Roboto Condensed";
     text-shadow: brown .05em .05em;
   }
