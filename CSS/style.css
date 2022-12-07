@@ -224,12 +224,12 @@ main{
 
   Article:first-letter {
     float: left;
-    font-size: 45px;
-    line-height: 1;
-    font-weight: bold;
-    margin-right: 9px;
+    font-size: 60px;
+    line-height: .10;
+    font-weight:Bold;
+    margin-right: 5px;
     color: brown;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Roboto Condensed";
     text-shadow: brown .05em .05em;
   }
 
