@@ -13,7 +13,7 @@ The purpose of this project is to illustrate my journey of learning website desi
 - Font: Brown `#A52A2A` ![#A52A2A](https://placehold.co/15x15/A52A2A/A52A2A.png)
 - Heading Background: White `#FFFFFF`  ![#FFFFFF](https://placehold.co/15x15/FFFFFF/FFFFFF.png)
 
-##Nav Bar
+## Nav Bar
 The Nav bar is a basic check box style nav bar with a hover animation.
 
 ## Citations
