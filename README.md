@@ -13,8 +13,11 @@ The purpose of this project is to illustrate my journey of learning website desi
 - Font: Brown `#A52A2A` ![#A52A2A](https://placehold.co/15x15/A52A2A/A52A2A.png)
 - Heading Background: White `#FFFFFF`  ![#FFFFFF](https://placehold.co/15x15/FFFFFF/FFFFFF.png)
 
+## CSS Animation Article
+The article in this project which includes a drop cap and is about how to use CSS Animation and its benefits. In breif the article states how the CSS Animation is much faster and more efficient then any bacground java thats running on the site. It also includes a really neat coffee maker animation that I grabbed from the source listed below so go check out his copdepen page!
+
 ## Nav Bar
-The Nav bar is a basic check box style nav bar with a hover animation.
+The Nav bar is a basic check box style nav bar with a hover animation.All that the check box means is in the phone media state a hamburger icon will apear with a hidden check box icon and it toggles the menu block in and out of the site. It follows the same color scheme as the rest of the project.
 
 ## Citations
 
@@ -23,7 +26,7 @@ The Nav bar is a basic check box style nav bar with a hover animation.
 ##### Article Citation 1: https://www.w3schools.com/css/css3_animations.asp
 ##### Article Citation 2: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations
 ##### Article Citation 3: https://animate.style/
-##### Animation Code: https://codepen.io/hjdesigner/pen/jvyJdX
+##### Cofee Maker Animation Code: https://codepen.io/hjdesigner/pen/jvyJdX
 
 ## License 
 
