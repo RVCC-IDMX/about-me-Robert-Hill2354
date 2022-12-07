@@ -81,7 +81,7 @@ main{
   
   h1 {
 
-    font-family: Anton ;
+    font-family: "Anton" ;
     text-align: center;
     color: brown;
     background-color: white ;
@@ -136,8 +136,9 @@ main{
   /* Bio and Hobby Section*/
 
   h2 {
-    font-family: "Roboto Condensed";
+    font-family: "Anton";
     color: brown;
+    font-size: 2rem ;
     background-color: white ;
     text-align: left;
     display: flex;
@@ -157,12 +158,23 @@ main{
 
   }
 
-  #hobbies p {
-
-    margin-top: 2%;
-    margin-bottom: 2%;
+  #hobbies ul{
+    margin-top: .5%;
+    margin-left:35% ;
+    font-size: 1.5rem;
+    margin-bottom: .5%;
 
   }
+
+  #Biography p , #hobbies p{
+
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: .5%;
+    margin-right: .5%;
+
+  }
+  
 
   #Biography {
 
@@ -202,12 +214,24 @@ main{
     text-align: left;
     margin-bottom: 3%;
     margin-left: 2%;
+    text-align: center;
    
 
   }
 
 
   /*Article Section*/
+
+  Article:first-letter {
+    float: left;
+    font-size: 45px;
+    line-height: 1;
+    font-weight: bold;
+    margin-right: 9px;
+    color: brown;
+    font-family: "Times New Roman", Times, serif;
+    text-shadow: brown .05em .05em;
+  }
 
   article{
 
@@ -225,16 +249,16 @@ main{
 
   }
 
-  #lastp{
-
-    margin-top: 130%;
-
-  }
-
   article ul{
 
     margin: 2% 2% 2% 10%;
     
+
+  }
+
+  #lastp{
+
+    margin-top: 35rem;
 
   }
 
@@ -247,7 +271,6 @@ main{
   /*Coffee Animation*/
 
   .container {
-    margin-top: 1370%;
     width: 300px;
     height: 280px;
     position: absolute;
@@ -510,7 +533,7 @@ main{
   #contact{
 
     margin-top: 1%;
-
+    margin-left: 2%;
   }
 
   label{
@@ -635,17 +658,6 @@ margin-bottom: 1%;
       
     }
 
-    .container{
-
-      margin-top: 580%;
-
-    }
-
-    #lastp{
-
-      margin-top: 45% ;
-
-    }
 
 }
 /*Laptop Media Query*/
@@ -710,39 +722,10 @@ margin-bottom: 1%;
 
   }
 
- 
-
   article div{
 
     font-size: 1.5rem;
   
-  }
-
-  .container {
-    margin-top: 277%;
-  }
-
-  #lastp{
-
-    margin-top: 28%;
-
-  }
-
-  #hobbies ul{
-    margin-top: .5%;
-    margin-left:35% ;
-    font-size: 1.5rem;
-    margin-bottom: .5%;
-
-  }
-
-  #Biography p , #hobbies p{
-
-    font-size: 1.5rem;
-    text-align: center;
-    margin-left: .5%;
-    margin-right: .5%;
-
   }
 
   label{
@@ -829,6 +812,7 @@ input[type=checkbox]{
   display: block;
 
   }
+  
   
 }
 
